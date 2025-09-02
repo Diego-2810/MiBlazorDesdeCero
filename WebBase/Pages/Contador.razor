@@ -1,0 +1,18 @@
+@page "/contador"
+
+<h3>Contador Blazor</h3>
+
+<p>Valor actual: <strong>@contador</strong></p>
+
+<button class="btn btn-primary" @onclick="Incrementar">Incrementar</button>
+
+@code {
+    int contador = 0;
+
+    void Incrementar()
+    {
+        contador++;
+    }
+}
+
+<p>Podés visitar el <a href="/">Menú</a>.</p>

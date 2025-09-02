@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/home/et12alumno/MiBlazorDesdeCero/WebBase/wwwroot/css/menu.css",
+      "PackagePath": "staticwebassets/css/menu.css"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.WebBase.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.WebBase.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.WebBase.props",
+      "PackagePath": "build\\WebBase.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.WebBase.props",
+      "PackagePath": "buildMultiTargeting\\WebBase.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.WebBase.props",
+      "PackagePath": "buildTransitive\\WebBase.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

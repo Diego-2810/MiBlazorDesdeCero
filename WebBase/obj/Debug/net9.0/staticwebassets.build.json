@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "Hash": "x5lXL0NZFZZMI1jl9igzc6SCHgHK9Cr+TYaPFoWapkk=",
+  "Source": "WebBase",
+  "BasePath": "_content/WebBase",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebBase/wwwroot",
+      "Source": "WebBase",
+      "ContentRoot": "/home/et12alumno/MiBlazorDesdeCero/WebBase/wwwroot/",
+      "BasePath": "_content/WebBase",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/et12alumno/MiBlazorDesdeCero/WebBase/obj/Debug/net9.0/compressed/zjpenitgd2-xfnqe1cwze.gz",
+      "SourceId": "WebBase",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/et12alumno/MiBlazorDesdeCero/WebBase/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/WebBase",
+      "RelativePath": "css/menu#[.{fingerprint=xfnqe1cwze}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/et12alumno/MiBlazorDesdeCero/WebBase/wwwroot/css/menu.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "kxmgxrhwoc",
+      "Integrity": "6ApXWOyXcS2Kj4lkI2DAajWpASEteSIf8zE63wOmeDo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/et12alumno/MiBlazorDesdeCero/WebBase/wwwroot/css/menu.css"
+    },
+    {
+      "Identity": "/home/et12alumno/MiBlazorDesdeCero/WebBase/wwwroot/css/menu.css",
+      "SourceId": "WebBase",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/et12alumno/MiBlazorDesdeCero/WebBase/wwwroot/",
+      "BasePath": "_content/WebBase",
+      "RelativePath": "css/menu#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xfnqe1cwze",
+      "Integrity": "LSvM90iTQ3o9e1eRi20SgDYxW3sUSb9836vJbGLXsfc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/menu.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/menu.css",
+      "AssetFile": "/home/et12alumno/MiBlazorDesdeCero/WebBase/obj/Debug/net9.0/compressed/zjpenitgd2-xfnqe1cwze.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006896551724"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6ApXWOyXcS2Kj4lkI2DAajWpASEteSIf8zE63wOmeDo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 02 Sep 2025 21:10:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LSvM90iTQ3o9e1eRi20SgDYxW3sUSb9836vJbGLXsfc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LSvM90iTQ3o9e1eRi20SgDYxW3sUSb9836vJbGLXsfc="
+        }
+      ]
+    },
+    {
+      "Route": "css/menu.css",
+      "AssetFile": "/home/et12alumno/MiBlazorDesdeCero/WebBase/wwwroot/css/menu.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "188"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LSvM90iTQ3o9e1eRi20SgDYxW3sUSb9836vJbGLXsfc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 02 Sep 2025 21:10:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LSvM90iTQ3o9e1eRi20SgDYxW3sUSb9836vJbGLXsfc="
+        }
+      ]
+    },
+    {
+      "Route": "css/menu.css.gz",
+      "AssetFile": "/home/et12alumno/MiBlazorDesdeCero/WebBase/obj/Debug/net9.0/compressed/zjpenitgd2-xfnqe1cwze.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6ApXWOyXcS2Kj4lkI2DAajWpASEteSIf8zE63wOmeDo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 02 Sep 2025 21:10:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6ApXWOyXcS2Kj4lkI2DAajWpASEteSIf8zE63wOmeDo="
+        }
+      ]
+    },
+    {
+      "Route": "css/menu.xfnqe1cwze.css",
+      "AssetFile": "/home/et12alumno/MiBlazorDesdeCero/WebBase/obj/Debug/net9.0/compressed/zjpenitgd2-xfnqe1cwze.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006896551724"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6ApXWOyXcS2Kj4lkI2DAajWpASEteSIf8zE63wOmeDo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 02 Sep 2025 21:10:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LSvM90iTQ3o9e1eRi20SgDYxW3sUSb9836vJbGLXsfc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xfnqe1cwze"
+        },
+        {
+          "Name": "label",
+          "Value": "css/menu.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LSvM90iTQ3o9e1eRi20SgDYxW3sUSb9836vJbGLXsfc="
+        }
+      ]
+    },
+    {
+      "Route": "css/menu.xfnqe1cwze.css",
+      "AssetFile": "/home/et12alumno/MiBlazorDesdeCero/WebBase/wwwroot/css/menu.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "188"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LSvM90iTQ3o9e1eRi20SgDYxW3sUSb9836vJbGLXsfc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 02 Sep 2025 21:10:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xfnqe1cwze"
+        },
+        {
+          "Name": "label",
+          "Value": "css/menu.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LSvM90iTQ3o9e1eRi20SgDYxW3sUSb9836vJbGLXsfc="
+        }
+      ]
+    },
+    {
+      "Route": "css/menu.xfnqe1cwze.css.gz",
+      "AssetFile": "/home/et12alumno/MiBlazorDesdeCero/WebBase/obj/Debug/net9.0/compressed/zjpenitgd2-xfnqe1cwze.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6ApXWOyXcS2Kj4lkI2DAajWpASEteSIf8zE63wOmeDo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 02 Sep 2025 21:10:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xfnqe1cwze"
+        },
+        {
+          "Name": "label",
+          "Value": "css/menu.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6ApXWOyXcS2Kj4lkI2DAajWpASEteSIf8zE63wOmeDo="
+        }
+      ]
+    }
+  ]
+}

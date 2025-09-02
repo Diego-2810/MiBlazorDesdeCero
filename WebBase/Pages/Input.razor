@@ -1,0 +1,13 @@
+@page "/input"
+
+<h1>Bienvenido</h1>
+
+<p>Escribí algo:</p>
+
+<input @bind="mensaje" placeholder="Escribí tu texto aquí" />
+
+<p>Texto ingresado: <strong>@mensaje</strong></p>
+
+@code {
+    private string mensaje = string.Empty;
+}

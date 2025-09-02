@@ -1,0 +1,15 @@
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 3rem;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
