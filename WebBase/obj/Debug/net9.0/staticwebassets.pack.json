@@ -1,8 +1,20 @@
 {
   "Files": [
     {
-      "Id": "/home/et12alumno/MiBlazorDesdeCero/WebBase/wwwroot/css/menu.css",
-      "PackagePath": "staticwebassets/css/menu.css"
+      "Id": "/home/et12alumno/MiBlazorDesdeCero/WebBase/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/home/et12alumno/MiBlazorDesdeCero/WebBase/wwwroot/img/hola123.jpg",
+      "PackagePath": "staticwebassets/img/hola123.jpg"
+    },
+    {
+      "Id": "/home/et12alumno/MiBlazorDesdeCero/WebBase/wwwroot/img/hola3.jpeg",
+      "PackagePath": "staticwebassets/img/hola3.jpeg"
+    },
+    {
+      "Id": "/home/et12alumno/MiBlazorDesdeCero/WebBase/wwwroot/img/hola4.jpeg",
+      "PackagePath": "staticwebassets/img/hola4.jpeg"
     },
     {
       "Id": "obj/Debug/net9.0/staticwebassets/msbuild.WebBase.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

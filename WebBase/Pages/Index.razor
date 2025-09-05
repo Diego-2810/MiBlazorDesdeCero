@@ -1,9 +1,24 @@
-@page "/"   
-    
-<h1>Bienvenido a Blazor</h1>    
-    
-<p>Esta es la página de inicio servida dinámicamente con Razor (.razor).</p>
 
-<p>Esta es la fecha actual: @DateTime.Now</p>
+<body>
+    
+    <h1 class="titulo">NetflixDeLibro</h1>
+    <div class="login-box"> <!-- Contenedor principal del formulario -->
+        <h2>Inicio de Sesión</h2> <!-- Título eque se muestra sobre el formulario -->
 
-<p>Podés visitar el <a href="/contador">contador interactivo</a>.</p>
+        <form action="#" method="post"> <!-- Formulario que usará el método POST. El "#" indica que no envía a ningún lado por ahora -->
+            
+            <label for="email">Correo Gmail:</label> <!-- Etiqueta para el campo del correo -->
+            <input type="email" id="email" name="email" required pattern=".+gmail\.com">
+            <!-- Campo para escribir el email. 'required' obliga a completarlo. 
+                'pattern' exige que sea una dirección @gmail.com -->
+
+            <label for="password">Contraseña:</label> <!-- Etiqueta para el campo de contraseña -->
+            <input type="password" id="password" name="password" required>
+            <!-- Campo para escribir la contraseña. 'type="password"' oculta los caracteres -->
+
+            <input type="submit" value="Iniciar Sesión">
+            <!-- Botón para enviar el formulario -->
+            
+        </form>
+      </div>
+</body>

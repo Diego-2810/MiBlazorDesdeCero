@@ -29,4 +29,5 @@
 /home/et12alumno/MiBlazorDesdeCero/WebBase/obj/Debug/net9.0/ref/WebBase.dll
 /home/et12alumno/MiBlazorDesdeCero/WebBase/obj/Debug/net9.0/WebBase.RazorAssemblyInfo.cache
 /home/et12alumno/MiBlazorDesdeCero/WebBase/obj/Debug/net9.0/WebBase.RazorAssemblyInfo.cs
-/home/et12alumno/MiBlazorDesdeCero/WebBase/obj/Debug/net9.0/compressed/zjpenitgd2-xfnqe1cwze.gz
+/home/et12alumno/MiBlazorDesdeCero/WebBase/obj/Debug/net9.0/WebBase.sourcelink.json
+/home/et12alumno/MiBlazorDesdeCero/WebBase/obj/Debug/net9.0/compressed/pnzg2fi344-5bnuqle9v1.gz
