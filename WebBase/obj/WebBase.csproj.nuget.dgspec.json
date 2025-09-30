@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/et12alumno/MiBlazorDesdeCero/WebBase/WebBase.csproj": {}
+    "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/WebBase.csproj": {}
   },
   "projects": {
-    "/home/et12alumno/MiBlazorDesdeCero/WebBase/WebBase.csproj": {
+    "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/WebBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/et12alumno/MiBlazorDesdeCero/WebBase/WebBase.csproj",
+        "projectUniqueName": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/WebBase.csproj",
         "projectName": "WebBase",
-        "projectPath": "/home/et12alumno/MiBlazorDesdeCero/WebBase/WebBase.csproj",
+        "projectPath": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/WebBase.csproj",
         "packagesPath": "/home/et12alumno/.nuget/packages/",
-        "outputPath": "/home/et12alumno/MiBlazorDesdeCero/WebBase/obj/",
+        "outputPath": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/et12alumno/.nuget/NuGet/NuGet.Config"
@@ -44,6 +44,20 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "MySQL.Data": {
+              "target": "Package",
+              "version": "[9.4.0, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

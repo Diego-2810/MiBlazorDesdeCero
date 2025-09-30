@@ -3,6 +3,21 @@ using Microsoft.AspNetCore.Components.Server;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.FileProviders;
+using WebBase.Csharp.dapper;
+using WebBase.Csharp.Entidades;
+
+string cadena = "server=localhost;database=bd_NetflixLibro;user=5to_agbd;password=Trigg3rs!;";
+
+var _adoDapper = new AdoDapper(cadena);
+
+Genero genero = new Genero
+{
+    idGenero = 1,
+    genero = "Uwu"
+};
+
+_adoDapper.AltaGenero(genero);
+
 
 var builder = WebApplication.CreateBuilder(args);
 
