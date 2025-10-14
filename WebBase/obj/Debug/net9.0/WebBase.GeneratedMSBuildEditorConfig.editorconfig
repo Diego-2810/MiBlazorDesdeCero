@@ -9,53 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebBase
 build_property.RootNamespace = WebBase
-build_property.ProjectDir = /mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/
+build_property.ProjectDir = /mnt/Datos/Repos/MiBlazorDesdeCero-2/WebBase/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /mnt/Datos/Repos/MiBlazorDesdeCero/WebBase
+build_property.MSBuildProjectDirectory = /mnt/Datos/Repos/MiBlazorDesdeCero-2/WebBase
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/App.razor]
+[/mnt/Datos/Repos/MiBlazorDesdeCero-2/WebBase/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/Pages/Catalogo.razor]
+[/mnt/Datos/Repos/MiBlazorDesdeCero-2/WebBase/Pages/Catalogo.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0YWxvZ28ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/Pages/Contador.razor]
+[/mnt/Datos/Repos/MiBlazorDesdeCero-2/WebBase/Pages/Contador.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFkb3IucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/Pages/Index.razor]
+[/mnt/Datos/Repos/MiBlazorDesdeCero-2/WebBase/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/Pages/Input.razor]
+[/mnt/Datos/Repos/MiBlazorDesdeCero-2/WebBase/Pages/Input.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5wdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/Pages/MENU.razor]
+[/mnt/Datos/Repos/MiBlazorDesdeCero-2/WebBase/Pages/MENU.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTUVOVS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/Shared/MainLayout.razor]
+[/mnt/Datos/Repos/MiBlazorDesdeCero-2/WebBase/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/Shared/NavMenu.razor]
+[/mnt/Datos/Repos/MiBlazorDesdeCero-2/WebBase/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/_Import.razor]
+[/mnt/Datos/Repos/MiBlazorDesdeCero-2/WebBase/_Import.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/Pages/_Host.cshtml]
+[/mnt/Datos/Repos/MiBlazorDesdeCero-2/WebBase/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

@@ -1773,11 +1773,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/WebBase.csproj",
+      "projectUniqueName": "/mnt/Datos/Repos/MiBlazorDesdeCero-2/WebBase/WebBase.csproj",
       "projectName": "WebBase",
-      "projectPath": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/WebBase.csproj",
+      "projectPath": "/mnt/Datos/Repos/MiBlazorDesdeCero-2/WebBase/WebBase.csproj",
       "packagesPath": "/home/et12alumno/.nuget/packages/",
-      "outputPath": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/obj/",
+      "outputPath": "/mnt/Datos/Repos/MiBlazorDesdeCero-2/WebBase/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/et12alumno/.nuget/NuGet/NuGet.Config"
