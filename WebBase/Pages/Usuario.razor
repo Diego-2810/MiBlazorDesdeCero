@@ -1,0 +1,79 @@
+
+@page "/usuarios"
+@inject WebBase.Csharp.dapper.IAdo Ado
+@using WebBase.Csharp.Entidades
+ 
+<h3>Usuarios</h3>
+
+<EditForm Model="@nuevo" OnValidSubmit="@Guardar">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    @* <div>
+        <label>Apodo</label>
+        <InputText @bind-Value="nuevo.apodo" />
+    </div>
+    <div>
+        <label>Email</label>
+        <InputText @bind-Value="nuevo.email" />
+    </div>
+    <div>
+        <label>Contraseña</label>
+        <InputText @bind-Value="nuevo.contrasena" type="password" />
+    </div> *@
+
+    <button type="submit">Guardar</button>
+</EditForm>
+
+<hr />
+
+@if (usuarios is null)
+{
+    <p>Cargando...</p>
+}
+else if (usuarios.Count == 0)
+{
+    <p>No hay usuarios.</p>
+}
+else
+{
+    <table>
+        <thead>
+            <tr><th>ID</th><th>Apodo</th><th>Email</th></tr>
+        </thead>
+        <tbody>
+        @foreach (var u in usuarios)
+        {
+            <tr>
+                <td>@u.idUsuario</td>
+                <td>@u.apodo</td>
+                <td>@u.email</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<WebBase.Csharp.Entidades.Usuario>? usuarios;
+    
+    private WebBase.Csharp.Entidades.Usuario nuevo;
+
+    protected override void OnInitialized()
+    {
+        usuarios = Ado.ObtenerUsuarios();
+    }
+
+    private void Guardar()
+    {
+        if (string.IsNullOrWhiteSpace(nuevo.apodo) ||
+            string.IsNullOrWhiteSpace(nuevo.email) ||
+            string.IsNullOrWhiteSpace(nuevo.contrasena))
+            return;
+
+        Ado.AltaUsuario(nuevo);
+        nuevo = new();
+        usuarios = Ado.ObtenerUsuarios();
+        StateHasChanged();
+    }
+}

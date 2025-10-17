@@ -1,12 +1,8 @@
-using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.Server;
-using Microsoft.AspNetCore.Components.Web;
-using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.FileProviders;
 using WebBase.Csharp.dapper;
 using WebBase.Csharp.Entidades;
 
-string cadena = "server=localhost;database=bd_NetflixLibro;user=5to_agbd;password=Trigg3rs!;";
+
+string cadena = "server=localhost;database=NetflixLibroBD;user=5to_agbd;password=Trigg3rs!;";
 
 var _adoDapper = new AdoDapper(cadena);
 
@@ -40,6 +36,28 @@ app.UseRouting();          // Habilita el enrutamiento interno
 app.MapBlazorHub();
 
 // Fallback a Razor si la URL no coincide con nada (en vez de usar index.html)
+app.MapFallbackToPage("/_Host");
+
+
+// Razor/Blazor
+builder.Services.AddRazorPages();
+builder.Services.AddServerSideBlazor();
+
+// IAdo con Dapper + MySQL
+var cs = builder.Configuration.GetConnectionString("default")!;
+builder.Services.AddScoped<IAdo>(sp => new AdoDapper(cs));
+
+// pipeline
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Error");
+    app.UseHsts();
+}
+
+app.UseStaticFiles();
+app.UseRouting();
+
+app.MapBlazorHub();
 app.MapFallbackToPage("/_Host");
 
 app.Run();

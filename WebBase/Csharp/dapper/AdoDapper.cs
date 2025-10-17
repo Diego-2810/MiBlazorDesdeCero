@@ -1,70 +1,48 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using WebBase.Csharp.Entidades;
-using MySql.Data;
-using MySqlConnector;
 using System.Data;
 using Dapper;
+using MySqlConnector;
+using WebBase.Csharp.Entidades;
 
 namespace WebBase.Csharp.dapper
 {
     public class AdoDapper : IAdo
     {
-        private readonly IDbConnection _conexion;
+        private readonly string _cs;
+        public AdoDapper(string cs) => _cs = cs;
 
-        public AdoDapper(IDbConnection conexion) => this._conexion = conexion;
+        private IDbConnection Conn() => new MySqlConnection(_cs);
 
-        //Este constructor usa por defecto la cadena para un conector MySQL
-        public AdoDapper(string cadena) => _conexion = new MySqlConnection(cadena);
-
-        public void AltaGenero(Genero genero)
-        {
-            string _queryAltaGenero =
-                @"INSERT INTO Genero (idGenero, genero) VALUES (@unIdGenero,@unGenero)";
-            _conexion.Execute(_queryAltaGenero, new { unIdGenero = genero.idGenero, unGenero = genero.genero });
-        }
-
-        public void AltaLibro(Libro libro)
-        {
-            throw new NotImplementedException();
-        }
-
+        // ====== USUARIOS ======
         public void AltaUsuario(Usuario usuario)
         {
-            throw new NotImplementedException();
-        }
-
-        public List<Genero> ObtenerGenero()
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<Libro> ObtenerLibros()
-        {
-            throw new NotImplementedException();
+            const string sql = @"
+                INSERT INTO usuarios (apodo, email, contrasena)
+                VALUES (@apodo, @email, @contrasena);";
+            using var db = Conn();
+            db.Execute(sql, usuario);
         }
 
         public List<Usuario> ObtenerUsuarios()
         {
-            throw new NotImplementedException();
-        }
-
-        public Genero? ObtenerGenero(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Libro? ObtenerLibro(int id)
-        {
-            throw new NotImplementedException();
+            const string sql = "SELECT idUsuario, apodo, email, contrasena FROM usuarios ORDER BY idUsuario DESC;";
+            using var db = Conn();
+            return db.Query<Usuario>(sql).ToList();
         }
 
         public Usuario? ObtenerUsuario(int id)
         {
-            throw new NotImplementedException();
+            const string sql = "SELECT idUsuario, apodo, email, contrasena FROM usuarios WHERE idUsuario = @id LIMIT 1;";
+            using var db = Conn();
+            return db.QueryFirstOrDefault<Usuario>(sql, new { id });
         }
-        
+
+        // ====== LIBROS/GENEROS (dejados como TODO para más tarde) ======
+        public void AltaGenero(Genero genero) => throw new NotImplementedException();
+        public List<Genero> ObtenerGenero() => throw new NotImplementedException();
+        public Genero? ObtenerGenero(int id) => throw new NotImplementedException();
+
+        public void AltaLibro(Libro libro) => throw new NotImplementedException();
+        public List<Libro> ObtenerLibros() => throw new NotImplementedException();
+        public Libro? ObtenerLibro(int id) => throw new NotImplementedException();
     }
 }
