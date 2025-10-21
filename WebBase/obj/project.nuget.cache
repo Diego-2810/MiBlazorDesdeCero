@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "00QczUIIAco=",
+  "dgSpecHash": "YuX6GJKoeEg=",
   "success": true,
-  "projectFilePath": "/mnt/Datos/Repos/MiBlazorDesdeCero-2/WebBase/WebBase.csproj",
+  "projectFilePath": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/WebBase.csproj",
   "expectedPackageFiles": [
     "/home/et12alumno/.nuget/packages/bouncycastle.cryptography/2.5.1/bouncycastle.cryptography.2.5.1.nupkg.sha512",
     "/home/et12alumno/.nuget/packages/dapper/2.1.66/dapper.2.1.66.nupkg.sha512",

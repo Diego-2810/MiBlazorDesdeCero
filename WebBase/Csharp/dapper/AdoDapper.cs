@@ -36,13 +36,52 @@ namespace WebBase.Csharp.dapper
             return db.QueryFirstOrDefault<Usuario>(sql, new { id });
         }
 
-        // ====== LIBROS/GENEROS (dejados como TODO para más tarde) ======
-        public void AltaGenero(Genero genero) => throw new NotImplementedException();
-        public List<Genero> ObtenerGenero() => throw new NotImplementedException();
-        public Genero? ObtenerGenero(int id) => throw new NotImplementedException();
+        // Genero
+        public void AltaGenero(Genero genero)
+        {
+            const string sql = "INSERT INTO Genero(idGenero, genero) VALUES (@idGenero, @genero);";
+            using var db = Conn();
+            db.Execute(sql, genero);
+        }
 
-        public void AltaLibro(Libro libro) => throw new NotImplementedException();
-        public List<Libro> ObtenerLibros() => throw new NotImplementedException();
-        public Libro? ObtenerLibro(int id) => throw new NotImplementedException();
+        public List<Genero> ObtenerGenero()
+        {
+            const string sql = "SELECT idGenero, genero FROM Genero ORDER BY genero;";
+            using var db = Conn();
+            return db.Query<Genero>(sql).ToList();
+        }
+
+        public Genero? ObtenerGenero(int id)
+        {
+            const string sql = "SELECT idGenero, genero FROM Genero WHERE idGenero=@id LIMIT 1;";
+            using var db = Conn();
+            return db.QueryFirstOrDefault<Genero>(sql, new { id });
+        }
+
+        // Libro (ajusta tipos según tu DDL)
+        public void AltaLibro(Libro libro)
+        {
+            const string sql = @"INSERT INTO Libro(ISBN, idAutor, idGenero, titulo, publicacion, calificacion)
+                                VALUES (@ISBN, @idAutor, @idGenero, @titulo, @publicacion, @calificacion);";
+            using var db = Conn();
+            db.Execute(sql, libro);
+        }
+
+        public List<Libro> ObtenerLibros()
+        {
+            const string sql = @"SELECT ISBN, idAutor, idGenero, titulo, publicacion, calificacion FROM Libro
+                                ORDER BY publicacion DESC;";
+            using var db = Conn();
+            return db.Query<Libro>(sql).ToList();
+        }
+
+        public Libro? ObtenerLibro(int id)
+        {
+            const string sql = @"SELECT ISBN, idAutor, idGenero, titulo, publicacion, calificacion
+                                FROM Libro WHERE ISBN = @id LIMIT 1;";
+            using var db = Conn();
+            return db.QueryFirstOrDefault<Libro>(sql, new { id });
+        }
+
     }
 }

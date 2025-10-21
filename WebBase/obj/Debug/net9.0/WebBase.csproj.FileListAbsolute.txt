@@ -36,7 +36,6 @@
 /mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/obj/Debug/net9.0/WebBase.RazorAssemblyInfo.cs
 /mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/obj/Debug/net9.0/WebBase.sourcelink.json
 /mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/obj/Debug/net9.0/scopedcss/bundle/WebBase.styles.css
-/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/obj/Debug/net9.0/compressed/pnzg2fi344-z3qaab5pvs.gz
 /mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/obj/Debug/net9.0/staticwebassets.build.json
 /mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/obj/Debug/net9.0/staticwebassets.development.json
 /mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/obj/Debug/net9.0/staticwebassets.build.endpoints.json
@@ -52,3 +51,6 @@
 /mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/obj/Debug/net9.0/WebBase.pdb
 /mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/obj/Debug/net9.0/WebBase.genruntimeconfig.cache
 /mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/obj/Debug/net9.0/ref/WebBase.dll
+/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/obj/Debug/net9.0/compressed/69vulbcr1x-oifn20wdsc.gz
+/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/obj/Debug/net9.0/compressed/pnzg2fi344-n88iklc6og.gz
+/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/obj/Debug/net9.0/compressed/xkict4qm6j-l7hg1mrurf.gz

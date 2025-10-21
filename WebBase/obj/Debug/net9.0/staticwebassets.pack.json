@@ -1,20 +1,156 @@
 {
   "Files": [
     {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/LP.jpg",
+      "PackagePath": "staticwebassets/Imagenes/LP.jpg"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/SHIMMER.jpg",
+      "PackagePath": "staticwebassets/Imagenes/SHIMMER.jpg"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/Secretos del pasado.webp",
+      "PackagePath": "staticwebassets/Imagenes/Secretos del pasado.webp"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/The_Queen's_Gambit_(miniseries).png",
+      "PackagePath": "staticwebassets/Imagenes/The_Queen's_Gambit_(miniseries).png"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/Try.webp",
+      "PackagePath": "staticwebassets/Imagenes/Try.webp"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/brigerton 1.jpg",
+      "PackagePath": "staticwebassets/Imagenes/brigerton 1.jpg"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/brigerton 2.jpg",
+      "PackagePath": "staticwebassets/Imagenes/brigerton 2.jpg"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/brigerton 3.webp",
+      "PackagePath": "staticwebassets/Imagenes/brigerton 3.webp"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/circulo.jpg",
+      "PackagePath": "staticwebassets/Imagenes/circulo.jpg"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/dn.avif",
+      "PackagePath": "staticwebassets/Imagenes/dn.avif"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/el guardian.jpg",
+      "PackagePath": "staticwebassets/Imagenes/el guardian.jpg"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/enola 2.jpg",
+      "PackagePath": "staticwebassets/Imagenes/enola 2.jpg"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/enola.jpg",
+      "PackagePath": "staticwebassets/Imagenes/enola.jpg"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/fondo.jpeg",
+      "PackagePath": "staticwebassets/Imagenes/fondo.jpeg"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/harri.jpeg",
+      "PackagePath": "staticwebassets/Imagenes/harri.jpeg"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/hola123.jpg",
+      "PackagePath": "staticwebassets/Imagenes/hola123.jpg"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/hola2.jpg",
+      "PackagePath": "staticwebassets/Imagenes/hola2.jpg"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/hola3.jpeg",
+      "PackagePath": "staticwebassets/Imagenes/hola3.jpeg"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/hola4.jpeg",
+      "PackagePath": "staticwebassets/Imagenes/hola4.jpeg"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/legado.jpg",
+      "PackagePath": "staticwebassets/Imagenes/legado.jpg"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/llamas.jpg",
+      "PackagePath": "staticwebassets/Imagenes/llamas.jpg"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/los juegos del.jpg",
+      "PackagePath": "staticwebassets/Imagenes/los juegos del.jpg"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/los juegos.jpg",
+      "PackagePath": "staticwebassets/Imagenes/los juegos.jpg"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/maldita.webp",
+      "PackagePath": "staticwebassets/Imagenes/maldita.webp"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/ofrenda.jpg",
+      "PackagePath": "staticwebassets/Imagenes/ofrenda.jpg"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/ola123.jpg",
+      "PackagePath": "staticwebassets/Imagenes/ola123.jpg"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/pájaros cantores .jpg",
+      "PackagePath": "staticwebassets/Imagenes/pájaros cantores .jpg"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/sinsajo parte 2.webp",
+      "PackagePath": "staticwebassets/Imagenes/sinsajo parte 2.webp"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/sinsajo.jpg",
+      "PackagePath": "staticwebassets/Imagenes/sinsajo.jpg"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/st.webp",
+      "PackagePath": "staticwebassets/Imagenes/st.webp"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/st2.webp",
+      "PackagePath": "staticwebassets/Imagenes/st2.webp"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/st3.avif",
+      "PackagePath": "staticwebassets/Imagenes/st3.avif"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/st4.webp",
+      "PackagePath": "staticwebassets/Imagenes/st4.webp"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/st5.jpeg",
+      "PackagePath": "staticwebassets/Imagenes/st5.jpeg"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/Imagenes/xx.jpg",
+      "PackagePath": "staticwebassets/Imagenes/xx.jpg"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/JS/script.js",
+      "PackagePath": "staticwebassets/JS/script.js"
+    },
+    {
+      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/css/estilo.css",
+      "PackagePath": "staticwebassets/css/estilo.css"
+    },
+    {
       "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/css/style.css",
       "PackagePath": "staticwebassets/css/style.css"
-    },
-    {
-      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/img/hola123.jpg",
-      "PackagePath": "staticwebassets/img/hola123.jpg"
-    },
-    {
-      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/img/hola3.jpeg",
-      "PackagePath": "staticwebassets/img/hola3.jpeg"
-    },
-    {
-      "Id": "/mnt/Datos/Repos/MiBlazorDesdeCero/WebBase/wwwroot/img/hola4.jpeg",
-      "PackagePath": "staticwebassets/img/hola4.jpeg"
     },
     {
       "Id": "obj/Debug/net9.0/staticwebassets/msbuild.WebBase.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
