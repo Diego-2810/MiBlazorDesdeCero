@@ -56,8 +56,13 @@ else
 
 @code {
     private List<WebBase.Csharp.Entidades.Usuario>? usuarios;
-    
+
     private WebBase.Csharp.Entidades.Usuario nuevo;
+
+    public Usuario(Csharp.Entidades.Usuario nuevo)
+    {
+        this.nuevo = nuevo;
+    }
 
     protected override void OnInitialized()
     {
